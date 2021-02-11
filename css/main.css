@@ -101,6 +101,13 @@ body{
 .coming-soon{
   text-transform: uppercase;
   font-size: calc(1.525rem + 3.3vw);
+  margin-bottom: 0.2em;
+}
+
+#countdown{
+  text-align: center;
+  font-size: calc(1.525rem + 3.3vw);
+  font-weight: 500;
 }
 
 /* Newsletter Form */
@@ -361,6 +368,9 @@ body{
 
 @media (min-width: 1200px) {
   .coming-soon {
+    font-size: 4rem;
+  }
+  #countdown {
     font-size: 4rem;
   }
 }
